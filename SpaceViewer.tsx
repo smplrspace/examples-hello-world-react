@@ -1,5 +1,6 @@
-import React, { FC, useEffect } from 'react';
-import { loadSmplrJs, Smplr } from '@smplrspace/smplr-loader';
+import * as React from 'react';
+import { FC, useEffect } from 'react';
+import { loadSmplrJs } from '@smplrspace/smplr-loader';
 
 export const SpaceViewer: FC = () => {
   useEffect(() => {
