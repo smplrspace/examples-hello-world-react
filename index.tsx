@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { FC, useEffect } from 'react';
+import { FC } from 'react';
 import { render } from 'react-dom';
 
 import { SpaceViewer } from './SpaceViewer';
