@@ -8,7 +8,7 @@ const App: FC = () => {
   useEffect(() => {
     // we recommend using the default value 'esm' in your code but stackblitz required 'umd'
     loadSmplrJs('umd')
-      .then((smplr: Smplr) => {
+      .then((smplr) => {
         const space = new smplr.Space({
           spaceId: 'edb2ebaa-47ea-4e54-af0d-cf543328bdb0',
           clientToken: 'pub_eb760fee77634cdab2fe31146fc371c2',
@@ -17,11 +17,10 @@ const App: FC = () => {
         space.startViewer({
           preview: true,
           onReady: () => console.log('Viewer is ready'),
-          onError: (error: Error) =>
-            console.error('Could not start viewer', error),
+          onError: (error) => console.error('Could not start viewer', error),
         });
       })
-      .catch((error: Error) => console.error(error));
+      .catch((error) => console.error(error));
   }, []);
 
   return (
