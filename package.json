@@ -1,7 +1,6 @@
 {
-  "name": "react-ts",
+  "name": "smplr-example-hello-world-react",
   "version": "0.0.0",
-  "private": true,
   "dependencies": {
     "@smplrspace/smplr-loader": "beta",
     "@types/react": "^16.8.2",

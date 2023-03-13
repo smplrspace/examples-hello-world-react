@@ -1,3 +1,3 @@
-# examples-hello-world-react
+# Examples - Hello world (React)
 
-[Edit on StackBlitz ⚡️](https://jake.stackblitz.com/edit/smplr-hello-world-react)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/smplr-hello-world-react)
