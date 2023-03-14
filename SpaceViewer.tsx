@@ -22,9 +22,8 @@ export const SpaceViewer: FC = () => {
   }, []);
 
   return (
-    <div
-      id="test"
-      style={{ width: 600, height: 400, backgroundColor: '#ecf1f5' }}
-    ></div>
+    <div className="smplr-wrapper">
+      <div id="test" className="smplr-embed"></div>
+    </div>
   );
 };
